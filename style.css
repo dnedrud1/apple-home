@@ -4,6 +4,25 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 body {
 }
 
+p {
+  padding-top: 15px;
+  font-size: 10px;
+  color: #999;
+  font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+}
+
+a {
+  color: #333;
+  font-size: 10px;
+  font-style: none;
+  text-decoration: none;
+  font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 nav {
   background-color: #686868;
   position: relative;
@@ -13,7 +32,6 @@ nav {
 
 .container {
   position: relative;
-  height: 50px;
   max-width: 1100px;
   min-width: 800px;
   margin: auto;
@@ -52,16 +70,79 @@ nav {
   position: relative;
   height: 600px;
   background-color: blue;
+  min-width: 800px;
 }
 
 .more {
   position: relative;
   height: 200px;
-  background-color: green;
+  min-width: 800px;
+}
+
+.promo {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  padding: 0px 1px;
+  margin: 0px;
+  width: 25%;
+  height: 200px;
+  min-width: 200px;
+  background-clip: content-box;
+  background-origin: content-box;
+}
+
+.promo1 {
+  background-image: url("images/promo-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.promo2 {
+  background-image: url("images/promo-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.promo3 {
+  background-image: url("images/promo-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.promo4 {
+  background-image: url("images/promo-4.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
 }
 
 footer {
   position: relative;
+  margin: auto;
   height: 80px;
-  background-color: red;
+  min-width: 800px;
+  max-width: 1000px;
+}
+
+.footer-left {
+  float: left;
+}
+
+.offset {
+  padding: 0px 10px;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-right a {
+  margin-top: 15px;
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+.footer-right img {
+  display: inline-block;
+  padding: 0px 5px;
 }
