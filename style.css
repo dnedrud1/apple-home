@@ -69,8 +69,31 @@ nav {
 .content {
   position: relative;
   height: 600px;
-  background-color: blue;
+  background-color: #f2f2f2;;
   min-width: 800px;
+  padding-top: 50px;
+}
+
+.content img {
+  display: block;
+  margin: 25px auto;
+}
+
+.content h1 {
+  font-size: 32px;
+  color: #333;
+  font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hero-image {
+  margin: auto;
+  height: 224px;
+  width: 692px;
+  background-image: url("images/hero-watch.png");
+  background-repeat: no-repeat;
+  background-position: center; 
 }
 
 .more {
